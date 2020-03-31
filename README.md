@@ -1,0 +1,2 @@
+# CCBridge
+cordova-plugin-ccbridge
