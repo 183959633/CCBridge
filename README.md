@@ -2,7 +2,7 @@
 cordova-plugin-ccbridge
 
 # 1) method ---- exit()  
-##  exit from application program;
+#####  exit from application program;
 
 # 2) method ---- getAppVersion()  
-##  get app version number;
+#####  get app version number;
