@@ -19,8 +19,13 @@
 
 # 2) method ---- getAppVersion()  
 #####  get app version number;
-      getAppVersion() {
-        cordova.plugins.CCBridge.getAppVersion((data: string) =>{
-          this.versionString = data;
-        });
+      export class HomePage {
+        versionString: string;
+        constructor() {}
+        
+        getAppVersion() {
+          cordova.plugins.CCBridge.getAppVersion((data: string) =>{
+            this.versionString = data;
+          });
+        }
       }
