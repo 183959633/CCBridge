@@ -5,4 +5,4 @@ cordova-plugin-ccbridge
   exit from application program;
 
 #2) method ---- getAppVersion()
-  get app version number
+  get app version number;
