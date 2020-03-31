@@ -3,12 +3,12 @@
 # use
   npm i cordova-plugin-ccbridge  
       
-      <tab><tab>declare let cordova: any;    
-      <tab><tab>@Component({  
-        <tab><tab>selector: 'app-home',  
-        <tab><tab>templateUrl: 'home.page.html',  
-        <tab><tab>styleUrls: ['home.page.scss'],  
-      <tab><tab>})  
+      declare let cordova: any;    
+      @Component({  
+        selector: 'app-home',  
+        templateUrl: 'home.page.html',  
+        styleUrls: ['home.page.scss'],  
+      })  
       
   
 # 1) method ---- exit()  
